@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="form-section" id="formsection">
+        <h2>Patient Information</h2>
+        <form id="patientForm">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" >
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" >
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" >
+
+            <label for="gender">Gender:</label>
+            <input type="text" id="gender" name="gender">
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" >
+
+            <label for="diseases">Chronic Diseases:</label>
+            <select id="diseases" name="diseases" >
+                <option value="heartDisease">Heart Disease</option>
+                <option value="hypertension">Hypertension</option>
+                <option value="asthma">Asthma</option>
+                <option value="cancer">Cancer</option>
+                <option value="none">None</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+        <main id="mainsection" class="mainsection">
+        
+    </main>
+    </section>
+   
+
+    
+      
+
+    <footer>
+        <p>&copy; 2024 Health Services. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
