@@ -39,6 +39,24 @@ section{
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.dob{
+    margin-top: 50px;
+}
+.errormass{
+    color: red;
+    font-size: 13px;
+    display: none;
+    margin-top: 0;
+    
+}
+.errorma ul {
+    list-style-type: none;
+    padding: 0;
+}
+.errorma li {
+    color: red;
+}
+
 
 form label {
     display: block;
@@ -92,4 +110,5 @@ footer {
 .mainsection img{
     width: 150px;
 }
+
 
